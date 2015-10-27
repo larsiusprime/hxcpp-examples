@@ -1,0 +1,149 @@
+
+ ___     
+/\_ \    __                       
+\//\ \  /\_\    ___ ___      __   
+  \ \ \ \/\ \ /' __` __`\  /'__`\ 
+   \_\ \_\ \ \/\ \/\ \/\ \/\  __/ 
+   /\____\\ \_\ \_\ \_\ \_\ \____\
+   \/____/ \/_/\/_/\/_/\/_/\/____/
+
+Lime Command-Line Tools (2.6.1)
+
+Initializing project...
+Reading HXCPP config: C:\Users\larsiusprime\.hxcpp_config.xml
+Using target platform: CONSOLE-PC
+ - Running command: T:/Development/Git/lime-console-pc/run.exe rebuild C:\Users\LARSIU~1\AppData\Local\Temp/temp_11285886 -verbose
+ - Detected host platform: WINDOWS
+Using target platform: CONSOLE-PC
+
+Running command: REBUILD
+ - Changing directory: T:\Development\Git\lime-console-pc\project
+ - Running command: haxelib run hxcpp Build.xml -Dstatic_link -Dtoolchain=console-pc -IT:\Development\Git\lime-console-pc\ -DBINDIR=ConsolePC -Dconsole-pc=1 -Dwindows -DHXCPP_MULTI_THREADED -Dlime-console -verbose
+ __                          
+/\ \                                      
+\ \ \___    __  _   ___   _____   _____   
+ \ \  _ `\ /\ \/'\ /'___\/\ '__`\/\ '__`\ 
+  \ \ \ \ \\/>  <//\ \__/\ \ \L\ \ \ \L\ \
+   \ \_\ \_\/\_/\_\ \____\\ \ ,__/\ \ ,__/
+    \/_/\/_/\//\/_/\/____/ \ \ \/  \ \ \/ 
+                            \ \_\   \ \_\ 
+                             \/_/    \/_/ 
+
+hxcpp (Haxe C++ Runtime Support) (3.2.0)
+
+Using makefile: Build.xml
+Reading HXCPP config: C:\Users\larsiusprime\.hxcpp_config.xml
+Using target toolchain: console-pc
+
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/setup.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "vars")
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/finish-setup.xml
+ - Parsing makefile: Build.xml
+ - Parsing include: T:/Development/Git/hxcpp/build-tool/BuildCommon.xml
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/haxe-target.xml
+ - Parsing include: T:/Development/Git/lime-console/project/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/hxcpp/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/cairo/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/freetype/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/harfbuzz/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/pixman/files.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing include: T:/Development/Git/lime-console-pc/toolchain/console-pc-toolchain.xml
+Using msvc cl version 16
+Using compile threads: 2
+ - Parsing compiler: T:/Development/Git/hxcpp/toolchain/common-defines.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "exes")
+
+
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/regexp
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/zlib
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/msvccompat
+ - Changing directory: T:\Development\Git\lime-console-pc\project
+ - Running command: haxelib run hxcpp Build.xml -Dstatic_link -Dtoolchain=console-pc -IT:\Development\Git\lime-console-pc\ -DBINDIR=ConsolePC -Dconsole-pc=1 -Dwindows -DHXCPP_MULTI_THREADED -Dlime-cairo -Dlime-console -Dlime-native -Dtools=2.6.1 -Drebuild=1 -Dno-compilation -verbose
+ __                          
+/\ \                                      
+\ \ \___    __  _   ___   _____   _____   
+ \ \  _ `\ /\ \/'\ /'___\/\ '__`\/\ '__`\ 
+  \ \ \ \ \\/>  <//\ \__/\ \ \L\ \ \ \L\ \
+   \ \_\ \_\/\_/\_\ \____\\ \ ,__/\ \ ,__/
+    \/_/\/_/\//\/_/\/____/ \ \ \/  \ \ \/ 
+                            \ \_\   \ \_\ 
+                             \/_/    \/_/ 
+
+hxcpp (Haxe C++ Runtime Support) (3.2.0)
+
+Using makefile: Build.xml
+Reading HXCPP config: C:\Users\larsiusprime\.hxcpp_config.xml
+Using target toolchain: console-pc
+
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/setup.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "vars")
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/finish-setup.xml
+ - Parsing makefile: Build.xml
+ - Parsing include: T:/Development/Git/hxcpp/build-tool/BuildCommon.xml
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/haxe-target.xml
+ - Parsing include: T:/Development/Git/lime-console/project/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/hxcpp/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/cairo/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/freetype/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/harfbuzz/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/pixman/files.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing include: T:/Development/Git/lime-console-pc/toolchain/console-pc-toolchain.xml
+Using msvc cl version 16
+Using compile threads: 2
+ - Parsing compiler: T:/Development/Git/hxcpp/toolchain/common-defines.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "exes")
+
+
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/regexp
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/zlib
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/msvccompat
+ - Changing directory: T:\Development\Git\lime-console-pc\project
+ - Running command: haxelib run hxcpp Build.xml -Dstatic_link -Dtoolchain=console-pc -IT:\Development\Git\lime-console-pc\ -DBINDIR=ConsolePC -Dconsole-pc=1 -Dwindows -DHXCPP_MULTI_THREADED -Ddebug -Dfulldebug -Dlime-cairo -Dlime-console -Dlime-native -Dtools=2.6.1 -Drebuild=1 -Dno-compilation -verbose
+ __                          
+/\ \                                      
+\ \ \___    __  _   ___   _____   _____   
+ \ \  _ `\ /\ \/'\ /'___\/\ '__`\/\ '__`\ 
+  \ \ \ \ \\/>  <//\ \__/\ \ \L\ \ \ \L\ \
+   \ \_\ \_\/\_/\_\ \____\\ \ ,__/\ \ ,__/
+    \/_/\/_/\//\/_/\/____/ \ \ \/  \ \ \/ 
+                            \ \_\   \ \_\ 
+                             \/_/    \/_/ 
+
+hxcpp (Haxe C++ Runtime Support) (3.2.0)
+
+Using makefile: Build.xml
+Reading HXCPP config: C:\Users\larsiusprime\.hxcpp_config.xml
+Using target toolchain: console-pc
+
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/setup.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "vars")
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/finish-setup.xml
+ - Parsing makefile: Build.xml
+ - Parsing include: T:/Development/Git/hxcpp/build-tool/BuildCommon.xml
+ - Parsing include: T:/Development/Git/hxcpp/toolchain/haxe-target.xml
+ - Parsing include: T:/Development/Git/lime-console/project/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/hxcpp/Build.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/cairo/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/freetype/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/harfbuzz/files.xml
+ - Parsing include: T:/Development/Git/lime-console/project/lib/pixman/files.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing FileGroup: T:/Development/Git/lime-console/project/flags-wfengine.xml
+ - Parsing include: T:/Development/Git/lime-console-pc/toolchain/console-pc-toolchain.xml
+Using msvc cl version 16
+Using compile threads: 2
+ - Parsing compiler: T:/Development/Git/hxcpp/toolchain/common-defines.xml
+ - Parsing include: C:\Users\larsiusprime\.hxcpp_config.xml (section "exes")
+
+
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/regexp
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/zlib
+ - Changing directory: T:/Development/Git/hxcpp/project/libs/msvccompat
+
